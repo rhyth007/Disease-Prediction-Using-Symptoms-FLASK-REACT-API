@@ -1,0 +1,29 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label="receiving_unsterile_injections <= 0.5\ngini = 0.976\nsamples = 4920\nvalue = [120, 120, 120, 120, 120, 120, 120, 120, 120, 120\n120, 120, 120, 120, 120, 120, 120, 120, 120, 120\n120, 120, 120, 120, 120, 120, 120, 120, 120, 120\n120, 120, 120, 120, 120, 120, 120, 120, 120, 120\n120]\nclass = (vertigo) Paroymsal  Positional Vertigo", fillcolor="#ffffff"] ;
+1 [label="runny_nose <= 0.5\ngini = 0.975\nsamples = 4800\nvalue = [120, 120, 120, 120, 120, 120, 120, 120, 120, 120\n120, 120, 120, 120, 120, 120, 120, 120, 120, 120\n0, 120, 120, 120, 120, 120, 120, 120, 120, 120\n120, 120, 120, 120, 120, 120, 120, 120, 120, 120\n120]\nclass = (vertigo) Paroymsal  Positional Vertigo", fillcolor="#ffffff"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="stomach_bleeding <= 0.5\ngini = 0.974\nsamples = 4680\nvalue = [120, 120, 120, 120, 120, 120, 120, 120, 120, 120\n120, 120, 120, 120, 120, 120, 120, 120, 120, 120\n0, 120, 120, 120, 120, 120, 0, 120, 120, 120, 120\n120, 120, 120, 120, 120, 120, 120, 120, 120, 120]\nclass = (vertigo) Paroymsal  Positional Vertigo", fillcolor="#ffffff"] ;
+1 -> 2 ;
+3 [label="slurred_speech <= 0.5\ngini = 0.974\nsamples = 4560\nvalue = [120, 120, 120, 120, 120, 120, 120, 120, 120, 120\n120, 120, 120, 120, 120, 120, 120, 120, 120, 120\n0, 120, 120, 0, 120, 120, 0, 120, 120, 120, 120\n120, 120, 120, 120, 120, 120, 120, 120, 120, 120]\nclass = (vertigo) Paroymsal  Positional Vertigo", fillcolor="#ffffff"] ;
+2 -> 3 ;
+4 [label="rusty_sputum <= 0.5\ngini = 0.973\nsamples = 4440\nvalue = [120, 120, 120, 120, 120, 120, 120, 120, 120, 120\n120, 120, 120, 120, 120, 120, 120, 120, 120, 120\n0, 120, 120, 0, 120, 120, 0, 120, 120, 120, 120\n120, 120, 0, 120, 120, 120, 120, 120, 120, 120]\nclass = (vertigo) Paroymsal  Positional Vertigo", fillcolor="#ffffff"] ;
+3 -> 4 ;
+5 [label="swollen_extremeties <= 0.5\ngini = 0.972\nsamples = 4320\nvalue = [120, 120, 120, 120, 120, 120, 120, 120, 120, 120\n120, 120, 120, 120, 120, 120, 120, 120, 120, 120\n0, 120, 120, 0, 120, 120, 0, 0, 120, 120, 120\n120, 120, 0, 120, 120, 120, 120, 120, 120, 120]\nclass = (vertigo) Paroymsal  Positional Vertigo", fillcolor="#ffffff"] ;
+4 -> 5 ;
+6 [label="(...)", fillcolor="#C0C0C0"] ;
+5 -> 6 ;
+109 [label="(...)", fillcolor="#C0C0C0"] ;
+5 -> 109 ;
+110 [label="gini = 0.0\nsamples = 120\nvalue = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0\n0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 120\n0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]\nclass = Impetigo", fillcolor="#7839e5"] ;
+4 -> 110 ;
+111 [label="gini = 0.0\nsamples = 120\nvalue = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0\n0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0\n0, 0, 0, 0, 0, 120, 0, 0, 0, 0, 0, 0, 0]\nclass = Peptic ulcer diseae", fillcolor="#e539bd"] ;
+3 -> 111 ;
+112 [label="gini = 0.0\nsamples = 120\nvalue = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0\n0, 0, 0, 0, 0, 0, 0, 0, 0, 120, 0, 0, 0, 0\n0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]\nclass = Hypertension ", fillcolor="#3961e5"] ;
+2 -> 112 ;
+113 [label="gini = 0.0\nsamples = 120\nvalue = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0\n0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 120, 0\n0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]\nclass = Hypothyroidism", fillcolor="#5e39e5"] ;
+1 -> 113 ;
+114 [label="gini = 0.0\nsamples = 120\nvalue = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0\n0, 0, 0, 0, 0, 0, 120, 0, 0, 0, 0, 0, 0, 0\n0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]\nclass = Hepatitis C", fillcolor="#39ace5"] ;
+0 -> 114 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}
