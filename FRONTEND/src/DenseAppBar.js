@@ -25,7 +25,7 @@ export default function DenseAppBar() {
     <div className={classes.root}>
       <AppBar position="static">
       <Toolbar variant="dense">
-          <Typography variant="h6" color="inherit">    Disease Prediction  </Typography>
+          <Typography  variant="h6" color="inherit">  Disease Prediction Using Symptoms</Typography>
       </Toolbar>
       </AppBar>
     </div>
